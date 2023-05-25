@@ -1,0 +1,161 @@
+body {
+    background: #d3d3d326;
+}
+
+header {
+    background: #f08080b0;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+input {
+    width: 96.9%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid #7aa17b;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.bab {
+    font-weight: bold;
+    color: white;
+    font-family: berlin sans fb;
+    font-size: x-large;
+}
+
+.subbab {
+    font-weight: bold;
+    color: #dedada;
+    font-size: 15px;
+    font-family: berlin sans fb;
+}
+
+.sobat {
+    text-align: center;
+    font-size: small;
+}
+
+.square {
+    text-align: center;
+    background: lightcoral;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.card2 {
+    border: 2.5px solid lightcoral;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+.card3 {
+    border: 2.5px solid lightcoral;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+.area {
+    text-align: center;
+    background: lightcoral;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 20px 20px;
+}
+
+.figure {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 15px;
+}
+
+.description {
+    font-size: small;
+    padding-left: 20px;
+}
+
+.formula {
+    text-align: center;
+}
+
+.card {
+    background: #C8E6C9;
+    padding: 20px;
+    font-family: arial;
+}
+
+h3 {
+    text-align: center;
+    font-size: larger;
+}
+
+form {
+    padding: 20px;
+}
+
+
+
+.hitung {
+    width: 80px;
+    height: 40px;
+    margin-left: 47%;
+    margin-right: 47%;
+    margin-bottom: 1%;
+    background: lightcoral;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: medium;
+    border: 0em solid lightcoral;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#reset-luas {
+    width: 80px;
+    height: 40px;
+    margin-left: 47%;
+    margin-right: 47%;
+    margin-bottom: 4%;
+    background: #9CCC65;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: medium;
+    border: 0em solid lightcoral;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#reset-keliling {
+    width: 80px;
+    height: 40px;
+    margin-left: 47%;
+    margin-right: 47%;
+    margin-bottom: 4%;
+    background: #9CCC65;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: medium;
+    border: 0em solid lightcoral;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#form-luas {
+    font-size: small;
+}
+
+#form-keliling {
+    font-size: small;
+}
+
+
