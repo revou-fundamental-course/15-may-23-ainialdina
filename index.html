@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css"> 
+</head>
+<body>
+    <header>
+        <span class="bab">Katik</span> <span class="subbab">Kalkulator Matematik</span>  <!--digunakan untuk memisahkan antara kata "katik" dan "kalkulator matematik"-->
+    </header> <br/>
+    <main>
+        <div class="card">
+            <div class="welcome">
+                <h3>Welcome to Katik</h3>
+            </div>
+            <div class="sobat">
+                Hai sobat, Selamat datang di Katik :]<br>
+                Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar<br/>
+            </div>
+            <div class="card2">
+                <div class="area">Luas Persegi</div>
+                <div class="figure">
+                    <img src="assets/persegi.jpg" width="100" height="100"/>
+                </div>
+                <div class="description">
+                    <p>Rumus Luas Persegi yaitu:</p>
+                    <div class="formula">L = S x S</div>
+    
+                    <p>Di mana:</p>
+                    <p>L = Luas</p>
+                    <p>S = Sisi</p>
+                </div>
+                <div>
+                        <h3>Hitung Luas Persegi</h3>
+                        <form id="form-luas">
+                            <input type="number" id="sisi-luas" name="sisi-luas" placeholder="Nilai" required>
+                        
+                            <p id="rumus-luas"> L = S x S </p>
+                            <span> L =  <span id="perhitungan-luas"></span></span>
+                            <br><br />
+                            <span> L =  <span id="output_luas"></span></span>
+                        </form>
+                                                    
+                        <button type="submit" class="hitung" name="hitung-luas" id="hitung-luas" onclick="hitungluas()"> Hitung </button>
+                        <input type="button" name="reset-luas" id="reset-luas" onclick="resetluas()" value="Reset">
+                       
+                </div>
+            </div>
+            <div class="card3">
+                <div class="area">Keliling Persegi</div>
+                <div class="figure">
+                    <img src="assets/persegi.jpg" width="100" height="100"/>
+                </div>
+                <div class="description">
+                    <p>Rumus Keliling Persegi yaitu:</p>
+                    <div class="formula">K = 4 x S</div>
+    
+                    <p>Di mana:</p>
+                    <p>K = Keliling</p>
+                    <p>S = Sisi</p>
+                </div>
+                <div>
+                    <div>
+                        <h3>Hitung Keliling Persegi</h3>
+                        <form id="form-keliling">
+                            <input type="number" id="sisi-keliling" name="sisi-keliling" placeholder="Nilai" required>
+                        
+                            <p id="rumus-keliling"> K = 4 x S </p>
+                            <span> K = 4 x <span id="perhitungan-keliling"></span></span>
+                            <br><br />
+                            <span> K =  <span id="output_keliling"></span></span>
+                        </form>
+                                                    
+                        <button type="submit" class="hitung" name="hitung-keliling" id="hitung-keliling" onclick="hitungkeliling()"> Hitung </button>
+                        <input type="button" name="reset-keliling" id="reset-keliling" onclick="resetkeliling()" value="Reset">
+                       
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
